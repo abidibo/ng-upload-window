@@ -20,13 +20,17 @@ decorated in order to manage different information and wrap the callbacks `succe
 
 ## Usage
 
-1. install the requirements
+1. install the package and its requirements
+
+    ```
+    bower install ng-upload-window --save
+    ```
 
 2. include the ng-upload-window js and css in your document
 
     ```html
-    <script src="ng-upload-window.js"></script>
-    <link type="text/css" rel="stylesheet" href="ng-upload-window.css" />
+    <script src="dist/ng-upload-window.js"></script>
+    <link type="text/css" rel="stylesheet" href="dist/ng-upload-window.css" />
     ```
 
 3. include ngUploadWindow as a dependency in your application module:
