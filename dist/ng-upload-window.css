@@ -1,0 +1,75 @@
+.upload-window {
+    width: 400px;
+    max-width: 70%;
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 10000;
+    font-size: 12px;
+    display: none;
+}
+.upload-window.active {
+    display: block;
+}
+.upload-window.iconized .upload-window-body {
+    height: 0px;
+    overflow: hidden;
+}
+.upload-window-title {
+    border-radius: 8px 8px 0 0;
+    background: #000;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+.upload-window-body {
+    overflow: auto;
+    max-height: 100%;
+    height: 160px;
+}
+.upload-window .uw-progress-bar {
+    width: 100px;
+    height: 15px;
+    position: relative;
+    border: 1px solid #f8f8f8;
+}
+.upload-window .uw-progress-bar .inner {
+    height: 14px;
+    display: block;
+    background: orange;
+}
+.upload-window .fa-check-circle {
+    color: green;
+}
+.upload-window .fa-exclamation-circle {
+    color: red;
+}
+.upload-window .iconize-ctrl {
+    float: right;
+}
+.upload-window.iconized .iconize-ctrl:before {
+    font-family: 'FontAwesome';
+    content: "";
+}
+.upload-window .iconize-ctrl:before {
+    font-family: 'FontAwesome';
+    content: "";
+}
+.upload-window tr.error {
+    opacity: 0.6;
+}
+.upload-window .active-ctrl {
+    margin-right: 5px;
+}
+.upload-window .active-ctrl:before {
+    font-family: 'FontAwesome';
+    content: "";
+}
+.upload-window .active-ctrl.running:before {
+    font-family: 'FontAwesome';
+    content: "";
+}
+
