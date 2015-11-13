@@ -1,0 +1,32 @@
+{
+  "name": "ng-upload-window",
+  "version": "0.1.0",
+  "homepage": "https://github.com/abidibo/ng-upload-window",
+  "authors": [
+    "abidibo <abidibo@gmail.com>"
+  ],
+  "description": "Wrapper directive around Daniel Farid's ng-file-upload upload service",
+  "main": [
+    "dist/ng-upload-window.js",
+    "dist/ng-upload-window.css"
+  ],
+  "keywords": [
+    "angular",
+    "upload",
+    "file"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".gitignore",
+    "ng-upload-window.jpg"
+  ],
+  "dependencies": {
+    "ng-file-upload": "~10.0.2",
+    "font-awesome": "~4.4.0"
+  }
+}
